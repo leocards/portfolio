@@ -68,10 +68,7 @@ const Welcome = () => {
 						className="text-3xl sm:text-5xl font-kanit font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-300"
 					/>
 					<BlurIn
-						word="A Bachelor of Science in Information Technology graduate
-                            with a passion for creating web applications. Over the
-                            years, I’ve honed my skills by working on real-world
-                            projects and providing coding solutions for various needs."
+						word="A Bachelor of Science in Information Technology graduate with a passion for creating web applications. Over the years, I have honed my skills by working on real-world projects and providing coding solutions to meet various needs."
 						className="!text-lg max-w-3xl font-medium text-foreground/80 max-sm:max-w-md"
 					/>
 				</div>
