@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'hanken';
+    src: url('../assets/HankenGrotesk.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'kanit';
+    src: url('../assets/Kanit-Black.ttf') format('truetype');
+    font-weight: 900;
+}
