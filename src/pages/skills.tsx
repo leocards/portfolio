@@ -9,63 +9,58 @@ import { cn } from "@/lib/utils";
 import { PropsWithChildren } from "react";
 import noise from "@/assets/img/noise.webp";
 import Container from "@/layouts/container-layout";
+import Marquee from "@/components/ui/marquee";
 
 
 const Skills = () => {
 	return (
 		<Container className="bg-background !min-h-fit">
-			<div className="py-16 pt-10 relative overflow-hidden bg-secondary rounded-b-[5rem]">
+			<div className="py-12 pt- 10 relative overflow-hidden bg-secondary rounded-b-[5rem]">
                 <div
-                    className="absolute top-0 left-0 w-[100vw] h-screen [mask-image:radial-gradient(#fff,transparent,75%)] [background-size:20%] dark:[background-size:25%] dark:opacity-5 inset-0 scale-[1.2] transform"
+                    className="absolute top-0 left-0 w-[100vw] h-screen [mask-image:radial-gradient(#fff,transparent,75%)] [background-size:20%] dark:[background-size:25%] 
+                    dark:opacity-5 max-sm:dark:opacity-15 inset-0 scale-[1.2] transform"
                     style={{
                         backgroundImage: `url(${noise})`,
                     }}
                 ></div>
 
-                <div className="my-4 mb-8 relative max-w-3xl mx-auto">
-                    <hr className="border-t border-border dark:border-primary/70" />
-                    <div className="bg-primary text-primary-foreground font-semibold font-kanit tracking-wider px-5 py-1.5 w-fit rounded-full -rotate-[10deg] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        Skills
-                    </div>
-                </div>
-
-				<div className="px-10">
-                    <div className="flex mx-auto w-fit gap-3 sm:gap-8 relative z-10">
+				<div className="px-8 md:px-10">
+                    <Marquee pauseOnHover className="">
                         <GridCard>
-                            <BxlTailwindCss className="size-10 !m-0 text-cyan-500 shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">Tailwind CSS</div>
+                            <BxlTailwindCss className="size-14 !m-0 text-cyan-500 shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">Tailwind CSS</div>
                         </GridCard>
 
                         <GridCard>
-                            <BxlJavascript className="size-10 !m-0 text-yellow-500 shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">JavaScript</div>
+                            <BxlJavascript className="size-14 !m-0 text-yellow-500 shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">JavaScript</div>
                         </GridCard>
 
                         <GridCard>
-                            <MdiLanguageTypescript className="size-10 !m-0 text-[#3178c6] shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">TypeScript</div>
+                            <MdiLanguageTypescript className="size-14 !m-0 text-[#3178c6] shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">TypeScript</div>
                         </GridCard>
 
                         <GridCard>
-                            <AkarIconsPhpFill className="size-10 !m-0 text-[#474a8a] shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">PHP</div>
+                            <AkarIconsPhpFill className="size-14 !m-0 text-[#474a8a] shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">PHP</div>
                         </GridCard>
 
                         <GridCard>
-                            <MdiLaravel className="size-10 !m-0 text-rose-500 shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">Laravel</div>
+                            <MdiLaravel className="size-14 !m-0 text-rose-500 shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">Laravel</div>
                         </GridCard>
 
                         <GridCard>
-                            <BxlReact className="size-10 !m-0 text-blue-400 shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">React</div>
+                            <BxlReact className="size-14 !m-0 text-blue-400 shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">React</div>
                         </GridCard>
 
                         <GridCard>
-                            <SimpleIconsMysql className="size-10 !m-0 text-[#00758f] shrink-0" />
-                            <div className="shrink-0 max-sm:hidden">MySql</div>
+                            <SimpleIconsMysql className="size-14 !m-0 text-[#00758f] shrink-0" />
+                            <div className="shrink-0 max-sm:hidde">MySql</div>
                         </GridCard>
-                    </div>
+                    </Marquee>
                 </div>
 			</div>
 		</Container>
@@ -79,7 +74,7 @@ const GridCard: React.FC<PropsWithChildren & { className?: string }> = ({
 	return (
 		<div
 			className={cn(
-				"rounded-lg flex items-center gap-2 font-bold p-1.5 pl-3 relative justify-center",
+				"rounded-lg flex items-center gap-2 font-bold p-1.5 pl-3 relative w-40 justify-center",
 				className
 			)}
 		>

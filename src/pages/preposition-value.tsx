@@ -18,7 +18,7 @@ const PrepositionValue = () => {
 				<div className="size-16 shrink-0 rounded-full overflow-hidden ring ring-blue-600 bg-background mx-auto mb-4 shadow z-10">
 					<img src={Profile3d} className="size-full object-contain" />
 				</div>
-				<div className="font-medium italic text-xl text-center">
+				<div className="font-medium italic text-xl max-sm:text-base text-center">
 					Whether it’s building responsive websites or crafting
 					dynamic web applications, I love turning ideas into reality.
 					My goal is to deliver effective and intuitive digital

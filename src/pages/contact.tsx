@@ -9,7 +9,7 @@ const Contact = () => {
 
 			<div className="relative rounded-t-[5rem] bg-secondary py-10 overflow-hidden [&>*:not(first-child)]:z-10">
 				<div
-					className="absolute top-0 left-0 w-[100vw] h-screen [mask-image:radial-gradient(#fff,transparent,75%)] [background-size:20%] dark:[background-size:25%] dark:opacity-5 inset-0 scale-[1.2] transform"
+					className="absolute top-0 left-0 w-[100vw] h-screen [mask-image:radial-gradient(#fff,transparent,75%)] [background-size:20%] dark:[background-size:25%] dark:opacity-5 max-sm:dark:opacity-15 inset-0 scale-[1.2] transform"
 					style={{
 						backgroundImage: `url(${noise})`,
 					}}

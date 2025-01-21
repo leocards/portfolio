@@ -10,7 +10,7 @@ const Projects = () => {
 		<Container className="bg-bac kground flex flex-col pb-10">
 			<div className="max-w-6xl w-full mx-auto">
 				<div className="mt-16 relative">
-					<hr className="border-t border-border dark:border-primary/70" />
+					<hr className="border-t border-border dark:border-primary/60 max-lg:w-[80%] max-lg:mx-auto" />
 					<div className="bg-primary text-primary-foreground font-semibold font-kanit tracking-wider px-5 py-1.5 w-fit rounded-full -rotate-[10deg] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
 						Projects
 					</div>
