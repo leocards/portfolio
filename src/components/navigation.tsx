@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { ModeToggle } from "./mode-toggle";
 import ContactForm from "./contact-form";
 import { useEffect, useRef, useState } from "react";
-import cv from  "../../public/CV.pdf"
+import cv from  "@/assets/CV.pdf"
 
 const Navigation = () => {
 	const [showContact, setShowContact] = useState(false);

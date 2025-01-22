@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import "@/css/index.css";
 import Welcome from "@/pages/welcome.tsx";
 import Projects from "@/pages/projects";
-import Navigation from "./components/navigation";
 import Skills from "./pages/skills";
 import PrepositionValue from "./pages/preposition-value";
 import Contact from "./pages/contact";
