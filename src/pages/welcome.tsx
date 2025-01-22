@@ -10,10 +10,12 @@ import Profile3d from "@/assets/img/profile.png";
 import noise from "@/assets/img/noise.webp";
 import GridPattern from "@/components/ui/grid-pattern";
 import { cn } from "@/lib/utils";
+import Navigation from "@/components/navigation";
 
 const Welcome = () => {
 	return (
 		<Container className="flex flex-col relative font-hanken bg-secondary overflow-hidden">
+            <Navigation />
 			<div
 				className="absolute top-0 left-0 h-screen [mask-image:radial-gradient(#fff,transparent,75%)] [background-size:20%] dark:[background-size:25%] dark:opacity-5 max-sm:dark:opacity-15 inset-0 scale-[1.2] transform"
 				style={{

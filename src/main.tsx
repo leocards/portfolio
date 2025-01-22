@@ -12,7 +12,6 @@ import { ThemeProvider } from "./components/theme-provider";
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
         <ThemeProvider defaultTheme="dark" storageKey="portfolio-ui-theme">
-            <Navigation />
             <Welcome />
             <Skills />
             <PrepositionValue />
